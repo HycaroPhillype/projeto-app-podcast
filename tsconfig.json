@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "nodenext",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "target": "es6",
+    "strict": true,
+    "esModuleInterop": true,
+    "types": ["node"]
+  }
+}
