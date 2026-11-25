@@ -5,5 +5,9 @@ export const getListEpisodes = async (
   res: ServerResponse,
 ) => {
   res.writeHead(200, { "Content-Type": "application/json" });
-  res.end({ episodes: [] });
+  res.end(
+    JSON.stringify({
+      message: "List of episodes",
+    }),
+  );
 };
